@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!--====form başı====-->
+<div class="user-detail">
+<h2>Kayıt Formu</h2>
+<form action="/create" method="POST">
+<label>İsim</label>
+<input type="text" placeholder="İsminiz" name="isim" required>
+<label>Soy İsim</label>          
+<input type="city" placeholder="Soy İsminiz" name="soyisim" required>
+<label>Email</label>
+<input type="email" placeholder="Email Adresiniz" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" required>
+<label>Telefon</label>
+<input type="text" placeholder="Telefon No" name="telefon" pattern="[0-9]{11}" required>
+<button type="Gönder">Submit</button>
+</div>
+</div>
+<!--====form sonu====-->
+</body>
+</html>
